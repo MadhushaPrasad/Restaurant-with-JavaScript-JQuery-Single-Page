@@ -1,0 +1,42 @@
+/*body{*/
+    /*background: url("../img/h1-sl3.jpg");*/
+    /*font-family: sans-serif;*/
+/*}*/
+/*.loginInbox{*/
+    /*width: 25%;*/
+    /*height: 70%;*/
+    /*position: absolute;*/
+    /*left: 40%;*/
+    /*top: 20%;*/
+    /*color: #000000;*/
+/*}*/
+/*.avatar{*/
+    /*width: 45%;*/
+    /*height: 35%;*/
+    /*position: absolute;*/
+    /*border-radius: 50%;*/
+    /*top: -12%;*/
+    /*right: 50%;*/
+    /*left: 28%;*/
+    /*border: 2px solid #FFFFFF;*/
+
+/*}*/
+/*div div{*/
+    /*position: absolute;*/
+    /*top: 20%;*/
+    /*right: 5%;*/
+    /*color: #FFFFFF;*/
+
+/*}*/
+/*div div h2{*/
+    /*position: relative;*/
+    /*right: -1%;*/
+/*}*/
+/*div div h3{*/
+    /*position: relative;*/
+    /*left: 12%;*/
+/*}*/
+/*.div{*/
+    /*position: absolute;*/
+    /*bottom: 0%;*/
+/*}*/
