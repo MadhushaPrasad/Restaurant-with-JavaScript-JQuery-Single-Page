@@ -1,30 +1,37 @@
-function CustomerDTO(id, age, tp, sallery) {
-    var _id = id;
-    var _age = age;
-    var _tp = tp;
+function CustomerDTO(nic, name, address, tp,sallery) {
+    var _nic = nic;
+    var _name = name;
+    var _address = address;
+    var __tp = tp;
     var __sallery = sallery;
 
-    this.getCustomerID = function () {
-        return _id;
+    this.getCustomerNic = function () {
+        return nic;
     }
-    this.getCustomerAge = function () {
-        return _age;
+    this.getCustomerName = function () {
+        return _name;
+    }
+    this.getCustomerAddress = function () {
+        return _address;
     }
     this.getCustomerTP = function () {
-        return _tp;
+        return __tp;
     }
     this.getCustomerSallery = function () {
         return __sallery;
     }
 
-    this.setCustomerID = function (val) {
-        _id = val;
+    this.setCustomerNic= function (val) {
+        _nic = val;
     }
-    this.setCustomerAge = function (val) {
-        _age = val;
+    this.setCustomerName = function (val) {
+        _name = val;
+    }
+    this.setCustomerAddress = function (val) {
+        _address = val;
     }
     this.setCustomerTp = function (val) {
-        _tp = val;
+        __tp = val;
     }
     this.setCustomerSallery = function (val) {
         __sallery = val;
